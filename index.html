@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="main">
+
+    <h1>Reliable, efficient delivery</h1>
+    <h1>Powered by Technology</h1>
+    <p>Our Artificial Intelligence powered tools use millions of project data points
+      to ensure that your project is successful</p>
+
+    <div class="card" style="width: 18rem; background-color: blue;">
+      <div class="card-top" style="height: 10px; background-color: blueviolet;"></div>
+      <div class="card-body">
+        <h4 class="card-title">Supervisor</h4>
+        <p class="card-text">Monitors activity to identify project roadblocks</p>
+        <img src="images/icon-supervisor.svg" alt="Image of a magnifer">
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; background-color: red;">
+      <div class="card-top" style="height: 10px; background-color: wheat;"></div>
+      <div class="card-body">
+        <h4 class="card-title">Team Builder</h4>
+        <p class="card-text">Scans our talent network to create the optimal team for your project</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; background-color: green;">
+      <div class="card-top" style="height: 10px; background-color: yellow;"></div>
+      <div class="card-body">
+        <h4 class="card-title">Karma</h4>
+        <p class="card-text">Regularly evaluates our talent to ensure quality</p>
+    </div>
+  </div>  
+    
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <div class="card" style="width: 18rem; background-color: sandybrown;">
+    <div class="card-top" style="height: 10px; background-color: lightcoral;"></div>
+    <div class="card-body">
+      <h4 class="card-title">Calculator</h4>
+      <p class="card-text">Uses data from past projects to provide better delivery estimates</p>
+  </div>
+</div>  
+  </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Jada Alexander</a>.
     </p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
