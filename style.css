@@ -23,15 +23,16 @@ h1:first-of-type{
 h1:nth-last-of-type(1){
     font-size: 30px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 28px;
 }
 
 h1, .firstparagraph{
     text-align: center;
+    font-weight: 200;
 }
 
 p:nth-of-type(1){
-    padding-bottom: 70px;
+    padding-bottom: 55px;
 }
 
 p{
@@ -42,6 +43,7 @@ p{
     margin: 20px 10px 20px 10px;
     width: 350px;
     background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .card-title{
