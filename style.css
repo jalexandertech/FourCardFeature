@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-color: #F2F2F2;
     max-width: 1440px;
-    
 }
 
 /* Mobile view */
@@ -65,18 +63,15 @@ img {
 /* Desktop view */
 
 @media only screen and (min-width: 1440px) {
-    .content{
-        padding-right:320px;
+    .content {
+        padding-right: 320px;
         padding-top: 100px;
         max-height: 922px;
     }
-
-    body{
-       
+    body {
         height: 100vh;
-        
     }
-    .main{
+    .main {
         max-height: 922px;
     }
     .card {
@@ -118,10 +113,8 @@ img {
         height: 20px;
         position: absolute;
         bottom: 10px;
-        margin-left: 580px ;
+        margin-left: 580px;
     }
-
-    
 }
 
 /* Footer Information */
@@ -129,7 +122,6 @@ img {
 .attribution {
     font-size: 11px;
     text-align: center;
-
 }
 
 .attribution a {
