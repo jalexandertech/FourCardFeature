@@ -1,79 +1,120 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
     font-family: 'Poppins', sans-serif;
-
 }
 
-body{
+body {
     background-color: #F2F2F2;
 }
-h1{
+
+/* Mobile view */
+
+h1 {
     text-align: center;
 }
 
-h1:first-of-type{
+h1:first-of-type {
     font-weight: 200;
     font-size: 28px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
-h1:nth-last-of-type(1){
+h1:nth-last-of-type(1) {
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 28px;
 }
 
-h1, .firstparagraph{
+h1, .firstparagraph {
     text-align: center;
     font-weight: 200;
 }
 
-p:nth-of-type(1){
+p:nth-of-type(1) {
     padding-bottom: 55px;
 }
 
-p{
+p {
     padding-bottom: 40px;
 }
 
-.card{
+.card {
     margin: 20px 10px 20px 10px;
     width: 350px;
     background-color: #ffffff;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.card-title{
+.card-title {
     font-weight: 600;
 }
 
-.card-body{
+.card-body {
     text-align: left;
 }
-img{
+
+img {
     float: right;
 }
 
+/* Desktop view */
 
+@media only screen and (min-width: 1440px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .card {
+        width: 350px;
+        height: 250px;
+    }
+    .card-text {
+        height: 85px;
+    }
+    h1:last-of-type {
+        padding-bottom: 5px;
+    }
+    .firstparagraph {
+        width: 550px;
+        height: 20px;
+        margin-left: 450px;
+    }
+    .supervisor {
+        position: relative;
+        top: 120px;
+        left: 160px;
+    }
+    .team-builder {
+        position: relative;
+        left: 540px;
+        bottom: 270px;
+    }
+    .karma {
+        position: relative;
+        bottom: 260px;
+        left: 540px;
+    }
+    .calculator {
+        position: relative;
+        bottom: 700px;
+        left: 915px;
+    }
+    footer {
+        height: 20px;
+        position: relative;
+        bottom: 530px;
+      
+        margin: 0;
+    }
+}
 
 /* Footer Information */
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
