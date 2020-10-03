@@ -68,21 +68,65 @@ img {
 }
 
 /* Desktop view */
-
-@media only screen and (min-width: 1440px) {
-    .content {
-        padding-right: 320px;
-        padding-top: 100px;
-        max-height: 922px;
+@media only screen and (min-width: 378px){
+    .firstparagraph{
+        max-width: 550px;
+        margin: auto;
     }
+
+    .content{
+        margin: auto;
+        max-width: 365px;
+    }
+    
+}
+@media only screen and (min-width: 1101px) {
+  
     body {
         height: 100vh;
         background-color: hsl(0, 0%, 98%);
         font-family: 'Poppins', sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+       
     }
+      /* CSS Grid */
     .main {
-        max-height: 922px;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 600px 60px;
+        grid-template-areas: 
+        "top top"
+        "content content"
+        "footer footer"
+        ;
+        
     }
+    
+    .top-row{
+        grid-area: top;
+        margin: auto;
+        max-width: 700px;
+    }
+    
+    .content{
+        grid-area: content;
+        margin: auto;
+        max-width: 600px;
+        
+    }
+    
+    footer{
+        grid-area: footer;
+        margin: auto;
+        max-width: 600x;
+        padding-top: 60px;
+    }
+    
+   
+    /* End of CSS Grid */
+    
     .card {
         width: 350px;
         height: 250px;
@@ -97,34 +141,40 @@ img {
         padding-bottom: 100px;
     }
     .firstparagraph {
-        width: 550px;
+        max-width: 550px;
         height: 20px;
-        margin-left: 450px;
+       
     }
+
+    /* Cards */
     .supervisor {
         position: relative;
         top: 120px;
-        left: 160px;
+       right: 370px;
     }
     .team-builder {
         position: relative;
-        left: 540px;
+       
         bottom: 270px;
     }
     .karma {
         position: relative;
         bottom: 260px;
-        left: 540px;
+        
     }
     .calculator {
         position: relative;
-        bottom: 745px;
-        left: 915px;
+        bottom: 755px;
+        left: 370px;
         
     }
     
+    
 }
 
+
+
+.
 /* Footer Information */
 
 .attribution {
