@@ -65,9 +65,19 @@ img {
 /* Desktop view */
 
 @media only screen and (min-width: 1440px) {
+    .content{
+        padding-right:320px;
+        padding-top: 100px;
+        max-height: 922px;
+    }
+
     body{
-        
+       
         height: 100vh;
+        
+    }
+    .main{
+        max-height: 922px;
     }
     .card {
         width: 350px;
@@ -106,10 +116,9 @@ img {
     }
     footer {
         height: 20px;
-        position: relative;
-        bottom: 530px;
-      
-        margin: 0;
+        position: absolute;
+        bottom: 10px;
+        margin-left: 580px ;
     }
 
     
