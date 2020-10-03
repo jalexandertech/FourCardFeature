@@ -46,7 +46,7 @@ p {
     margin: 20px 10px 20px 10px;
     width: 350px;
     background-color: #ffffff;
-    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.19), 0 6px 6px hsl(229, 6%, 66%);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.19), 0 5px 5px hsl(229, 6%, 66%);
 }
 
 .card-title {
@@ -78,6 +78,7 @@ img {
     body {
         height: 100vh;
         background-color: hsl(0, 0%, 98%);
+        font-family: 'Poppins', sans-serif;
     }
     .main {
         max-height: 922px;
@@ -117,12 +118,7 @@ img {
         bottom: 700px;
         left: 915px;
     }
-    footer {
-        height: 20px;
-        position: absolute;
-        bottom: 10px;
-        margin-left: 580px;
-    }
+    
 }
 
 /* Footer Information */
